@@ -1,0 +1,49 @@
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body
+{
+  margin: 0;
+  padding-top: 88px;
+  padding-left: 75px;
+  padding-right: 24px;
+  background-color: rgb(252, 247, 247);
+}
+#scroll-container
+{
+  padding-left: 22px;
+  display: flex;
+  column-gap: 10px;
+  position: fixed;
+  padding-top: 64px;
+  padding-bottom: 10px;
+  top: 0px;
+  left: 70px;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+#scroll-container button
+{
+  border: none;
+  background-color: rgb(235, 235, 235);
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+#scroll-container button:hover
+{
+  transition: 0.5s;
+  background-color: rgb(212, 210, 210);
+}
+#scroll-container button:active
+{
+  transition: none;
+  background-color: black;
+  color: white;
+}
+
